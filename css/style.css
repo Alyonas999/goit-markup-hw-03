@@ -8,8 +8,8 @@ body {
         background:#fff;
         font-family: "Roboto", sans-serif;
         -second-family: "Raleway", sans-serif;
+        color: #404bbf
 }
-
 .header-logo-italic {
         font-weight: 700;
         font-size: 18px;
@@ -129,6 +129,9 @@ background-color: #404BBF;
                     letter-spacing: 0.02em;
                     color: #2e2f42;
                     background-color: #FFFFFF
+    .portfolio {
+background-color: #FFFFFF
+}
 }
 .paragraph{
 font-size: 16px;
