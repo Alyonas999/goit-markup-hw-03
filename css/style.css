@@ -101,7 +101,16 @@ a {
 
 .button{
     border-radius: 4px;
-            background: #4d5ae5;
+            background: #4d5ae5;;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #ffffff;
+            cursor: pointer;
+}
+.button:focus,
+.button:hover{
+color: #404bbf;
 }
 .chapter-one{
     font-weight: 700;
