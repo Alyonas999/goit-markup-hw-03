@@ -110,7 +110,7 @@ a {
 }
 .button:focus,
 .button:hover{
-color: #404bbf;
+background-color: #404BBF;
 }
 .chapter-one{
     font-weight: 700;
@@ -119,6 +119,8 @@ color: #404bbf;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        background-color: #FFFFFF;
+        text-transform: capitalize;
 }
 .chapter{
                 font-weight: 500;
