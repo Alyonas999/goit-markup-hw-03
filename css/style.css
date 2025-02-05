@@ -141,7 +141,7 @@ font-size: 16px;
     background-color: #FFFFFF
 }
 .group{
-background-color: #f4f4fd;    
+background-color: #FFFFFF;    
 }
 
 .group-name{
@@ -153,9 +153,10 @@ background-color: #f4f4fd;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        background-color: #FFFFFF
 }
 .comand-link {
-    background-color: #fff;  
+background-color: #FFFFFF;  
 }
 
 .footer {
