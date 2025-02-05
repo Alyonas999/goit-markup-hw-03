@@ -88,8 +88,8 @@ a {
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
- 
-.chapter-one{
+}
+.chapter-one {
     font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -99,12 +99,7 @@ a {
         background-color: #FFFFFF;
         text-transform: capitalize;
 }
-li {
-    background-color: #FFFFFF;
-}
-.some-list-class li {
-    background-color: #FFFFFF;
-}
+
 .chapter{
                 font-weight: 500;
                     font-size: 20px;
@@ -117,11 +112,11 @@ li {
 background-color: #FFFFFF
 }
 .paragraph{
-font-size: 16px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    background-color: #FFFFFF
-}       letter-spacing: 0.02em;
+    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
         background-color: #2e2f42;
@@ -187,4 +182,4 @@ background-color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-}
+ }
