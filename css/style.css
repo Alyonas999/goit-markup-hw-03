@@ -131,6 +131,10 @@ background-color: #FFFFFF;
         text-align: center;
         color: #434455;
 }
+
+.some-list-class li {
+    background-color: #FFFFFF;
+}
 .text-button{
         background: #2e2f42;
             letter-spacing: 0.02em;
