@@ -8,7 +8,7 @@ body {
         background:#fff;
         font-family: "Roboto", sans-serif;
         -second-family: "Raleway", sans-serif;
-        color: #404bbf
+        color: #404bbf;
 }
 
 .header-logo-italic {
@@ -90,6 +90,17 @@ a {
         line-height: 1.07;
         letter-spacing: 0.02em;
 }
+.paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #434455;
+}
+.portfolio {
+background-color: #FFFFFF;
+}
 .chapter-one {
     font-weight: 700;
         font-size: 36px;
@@ -100,7 +111,6 @@ a {
         background-color: #FFFFFF;
         text-transform: capitalize;
 }
-
 .chapter{
                 font-weight: 500;
                     font-size: 20px;
@@ -109,19 +119,6 @@ a {
                     color: #2e2f42;
                     background-color: #FFFFFF;
 
-}
-.portfolio {
-background-color: #FFFFFF;
-}
-.paragraph{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    background-color: #FFFFFF;
-    letter-spacing: 0.02em;
-        text-align: center;
-        color:#434455;
-        background-color: #2e2f42;
 }
 .paragraph-section-three{
     font-size: 16px;
@@ -135,6 +132,7 @@ background-color: #FFFFFF;
 .some-list-class li {
     background-color: #FFFFFF;
 }
+
 .text-button{
         background: #2e2f42;
             letter-spacing: 0.02em;
