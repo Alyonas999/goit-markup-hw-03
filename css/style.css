@@ -1,11 +1,11 @@
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #fff;
+    background-color: #FFFFFF;
     color: #434455;
 }
 
 .header{
-        background:#fff;
+        background: #FFFFFF;
         font-family: "Roboto", sans-serif;
         -second-family: "Raleway", sans-serif;
         color: #404bbf;
@@ -107,7 +107,6 @@ background-color: #FFFFFF;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        background-color: #FFFFFF;
         text-transform: capitalize;
 }
 .chapter{
@@ -116,15 +115,13 @@ background-color: #FFFFFF;
                     line-height: 1.2;
                     letter-spacing: 0.02em;
                     color: #2e2f42;
-                    background-color: #FFFFFF;
+    
 
 }
 .paragraph-section-three{
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        background-color: #FFFFFF;
-       
         color: #434455;
 }
 
