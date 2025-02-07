@@ -107,8 +107,9 @@ ol {
 }
 
 .portfolio {
-  text-align: center;
-  background: #F4F4FD;
+background: #F4F4FD;
+text-align: center;
+    
 }
 
 .chapter-one {
@@ -118,7 +119,6 @@ ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    
     text-transform: capitalize;
 }
 
@@ -137,7 +137,6 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
-
     color: #434455;
 }
 
@@ -180,7 +179,7 @@ ol {
     background-color: #FFFFFF
 }
 
-.comand-link {
+.command-link {
     background-color: #FFFFFF
 }
 
