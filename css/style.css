@@ -425,5 +425,12 @@ font-size: 24px;
 
 .paragraph-footer {
 max-width: 264px;
-    color: #f4f4fd;     
+    color: #f4f4fd; 
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        align-items: center;
+       
+
 }
