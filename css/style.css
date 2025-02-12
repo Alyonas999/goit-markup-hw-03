@@ -14,9 +14,14 @@ body {
     color: #434455;
     margin: 0;
 font-size: 20px;
-
-
 }
+
+header,
+    main,
+    footer {
+  text-align: left;
+    }
+
 .header {
     background: #fff;
     font-family: "Roboto", sans-serif;
@@ -24,10 +29,29 @@ font-size: 20px;
     color: #404bbf;
     
 }
-header,
-main,
-footer {
-    text-align: left;
+.header-logo-italic {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+.header-logo {
+    font-weight: 700px;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+.header-link:focus,
+.header-link:hover {
+    color: #404BBF;
 }
 
 .container{
@@ -63,13 +87,28 @@ border-bottom: 1px solid #e7e9fc;
     max-width: 1158px;
         padding: 0 15px;
         margin: 0 auto;
-}
-.main-container{
-        display: flex;
         align-items: center;
+
 }
-
-
+.text{
+    max-width: 496px;
+            display: flex;
+            align-items: center;
+        
+}
+.text-button{
+    padding: 188px 0
+}
+.button{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color:#4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+}
 
 img {
 display: block;
@@ -80,31 +119,6 @@ object-fit: cover;
 }
 
 
-
-.header-logo-italic {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42;
-}
-
-.header-logo {
-    font-weight: 700px;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    padding: 24px 0;
-        margin-right: 76px;
-}
-
-.header-link:focus,
-.header-link:hover {
-    color: #404BBF;
-}
 
 
 .address-link:focus,
@@ -211,6 +225,13 @@ text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
 }
+
+
+
+.test-chapter {
+    padding: 188px 0;
+}
+
 .test-nav{
     display: flex;
     max-width: 1158px;
@@ -379,9 +400,9 @@ font-size: 24px;
 }
 
 .futer-logo {
-    
-    padding: 100px 16px;
-    margin-right: 76px;
+    display: block;
+    padding: 100px 0;
+    margin-bottom: 16px;
     font-weight: 700px;
     font-size: 18px;
     line-height: 1.17;
@@ -391,7 +412,6 @@ font-size: 24px;
 }
 
 
-
 .footer-container{
     display: flex;
         align-items: center;
@@ -399,10 +419,16 @@ font-size: 24px;
 
 .futer-logo-span {
     color: #f4f4fd;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 117%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
 }
 
 .paragraph-footer {
-
+max-width: 264px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
