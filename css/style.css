@@ -88,29 +88,56 @@ header,
 
 
 .container-effective{
-border-bottom: 1px solid #e7e9fc;
-    font-weight: 500px;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    min-width: 1158px;
-        padding: 0 15px;
-        margin: 0 auto;
+max-width: 1158px;
+    padding: 0;
+    margin: 0 auto;
+    
         align-items: center;
-
+        color:white;
 }
-.text{
-    font-weight: 500px;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-   max-width: 496px;
-   margin: 0 auto;
+
+
+.test{
+    max-width: 1158px;
+        padding: 0;
+        margin: 0 auto;
         
 }
+.test-hero{
+    display: flex;
+        align-items: center;
+}
+.chapter {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        margin-bottom: 8px;
+}
+
+.command-link{
+ width:calc(( 100% - 72px) / 4);
+}
+  
+.test-chapter {
+    padding: 120px 0;
+}
+
+.test-nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background-color: #ffffff;
+}
+
+.paragraph {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .text-button{
     padding-top: 188px 0;
     padding-right: 472px;
@@ -229,20 +256,11 @@ h1, h2, h3, h4, h5, h6, p{
    
 }
 
-.paragraph {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    background-color: #FFFFFF;
-    color: #434455;
-    
-}
-
 .portfolio {
 background: #F4F4FD;
 text-align: center;   
+display: flex;
 }
-
 .chapter-one {
     font-weight: 700;
     font-size: 36px;
@@ -253,30 +271,31 @@ text-align: center;
     text-transform: capitalize;
 }
 
-
-
-.test-chapter {
-    padding: 188px 0;
-}
-
-.test-nav{
+.container-portfolio{
     display: flex;
-    max-width: 1158px;
-        padding: 120px 0;
-        margin: 0 auto;
-        gap: 24px;
+    margin: 0 auto;
 }
 
-
-.chapter {
+.portfolio-item{
+display: block;
+margin: 0 auto;
+}
+.chapter-portfolio {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 120%;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-   align-items: center;
-   padding: 24px 0;
 }
+
+.img-port{
+display: flex;
+    max-width: 100%;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+    object-fit: cover;
+}
+
+
 
 .paragraph-section-three {
     font-size: 16px;
@@ -288,12 +307,9 @@ text-align: center;
 
 
 .text-button {
-    background: #2e2f42;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #ffffff;
-    padding: 24px 0;
-        margin: 0 auto;
+    background-color: #2e2f42;
+        display: flex;
+        padding: 188px 0;
 
        
 }
@@ -456,12 +472,14 @@ display: block;
     
 }
 
-
-
 .paragraph-footer {
 max-width: 264px;
     color: #f4f4fd; 
         align-items: center;
-       
+    display: flex;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
 
 }
