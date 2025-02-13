@@ -72,6 +72,8 @@ header,
     max-width: 1158px; 
     padding: 0 15px;
     margin: 0 auto;
+    color: white;
+    display: block;
 }
 
 
@@ -86,15 +88,6 @@ header,
      
 }
 
-
-.container-effective{
-max-width: 1158px;
-    padding: 0;
-    margin: 0 auto;
-    
-        align-items: center;
-        color:white;
-}
 
 
 .test{
@@ -136,6 +129,7 @@ font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: black;
 }
 
 .text-button{
@@ -164,11 +158,11 @@ font-weight: 400;
 }
 
 img {
-display: block;
  max-width: 100%;
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 background: #fff;
 object-fit: cover;
+display: block;
 }
 
 
@@ -271,15 +265,7 @@ display: flex;
     text-transform: capitalize;
 }
 
-.container-portfolio{
-    display: flex;
-    margin: 0 auto;
-}
 
-.portfolio-item{
-display: block;
-margin: 0 auto;
-}
 .chapter-portfolio {
     font-weight: 500;
     font-size: 20px;
@@ -288,11 +274,12 @@ margin: 0 auto;
 }
 
 .img-port{
-display: flex;
+
     max-width: 100%;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
     object-fit: cover;
+    display: block;
 }
 
 
