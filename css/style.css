@@ -382,6 +382,9 @@ font-weight: 700;
     
 }
 
+.logo{
+    display: inline-block;
+}
 .futer-logo{
 display: inline-block;
     margin-bottom: 16px;
