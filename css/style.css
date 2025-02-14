@@ -122,6 +122,7 @@ font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: black;
+  
 }
 
 .text-button{
@@ -238,29 +239,27 @@ h1, h2, h3, h4, h5, h6, p{
    
 }
 
+
+
+
 .portfolio {
-background-color: #F4F4FD;
-text-align: center;   
-display: flex;
-flex-direction: column;
     padding: 120px 0;
 }
-.chapter-one {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
+
+
+.porf{
+width: calc((100% - 48px) / 3);
 }
-
-
+.command-portf{
+padding: 32px 16px;
+    border-top: none;
+    border: 1px solid #e7e9fc;
+}
 .chapter-portfolio {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
+    display: flex;
+        flex-wrap: wrap;
+        row-gap: 48px;
+        column-gap: 24px;
 }
 
 .img{
@@ -307,6 +306,7 @@ flex-direction: column;
 .team{
 padding: 32px 0;
 }
+
 .team-list{
 display: flex;
 align-items: center;
@@ -324,9 +324,8 @@ font-weight: 700;
 }
 
 .item-subtitle{
-    text-align: center;
+text-align: center;
     margin-bottom: 8px;
-    display: flex;
    
 
 }
@@ -339,12 +338,13 @@ font-weight: 700;
 
 .chapter {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-    
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        margin-bottom: 8px;
+        text-align: center;
+
 }
 .command-link {
     background-color: #FFFFFF;
@@ -356,13 +356,6 @@ font-weight: 700;
 
 
 
-.portfolio-item {
-    background-color: white;
-    width: 280px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    padding: 16px;
-}
 
 
 
@@ -376,15 +369,7 @@ font-weight: 700;
     padding: 100px 0;
 }
 
-.footer-container{
-    display: flex;
-        align-items: center;
-    
-}
 
-.logo{
-    display: inline-block;
-}
 .futer-logo{
 display: inline-block;
     margin-bottom: 16px;
@@ -398,4 +383,5 @@ display: inline-block;
         color: #f4f4fd;
         letter-spacing: 0.02em;
         max-width: 264px;
+        
 }
